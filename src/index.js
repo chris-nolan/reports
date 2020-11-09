@@ -1,8 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
+import App from './pages/App';
+
+import 'react-grid-layout/css/styles.css';
+import 'react-resizable/css/styles.css';
 
 ReactDOM.render(
   <React.StrictMode>
